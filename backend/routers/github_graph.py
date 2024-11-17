@@ -27,8 +27,9 @@ async def get_user_followers(username: str):
 async def say_hello(name: str):
 
     return {"message": f"Hello {name}",
-            "age": f"How old are you?",
-            "occupation": f"What do you do?",
+            "Age": f"How old are you?",
+            "Occupation": f"What do you do?",
+            "Profession": f"What major are you in?"
             }
 @github_router.get("/information/{name}")
 async def get_information(name: str):
@@ -37,7 +38,7 @@ async def get_information(name: str):
       "authorization": f"token {token}"
     } if token else {}
 
-    url = f"https://api.github.com/users/{username}/followers"
+    url = f"https://api.github.com/users/{name}"
 
     # Делаем запрос и получаем ответ
     response = requests.get(url, headers=headers)
