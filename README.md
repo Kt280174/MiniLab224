@@ -3,4 +3,4 @@ Perform a query to the given API. I create an additional function in the utils.p
 create 2 more endpoints:
 http://localhost:5000/api/v1/github/information/x4nth055
 http://127.0.0.1:5000/api/v1/github/hello/x4nth055
-documentation: https://web.postman.co/workspace/2ce3a453-02a4-4f54-8eff-cd4dc591a679/overview
+documentation: https://www.postman.com/aerospace-astronomer-13375905/my-workspace/documentation/euv6rf8/new-collection
