@@ -33,5 +33,6 @@ Occupation (string): The occupation of the user
 Profession (string): The profession of the user
 The content type of the response is application/json.
 
-
+# Documentation: 
+You can see the documentation in my workspace here: https://www.postman.com/aerospace-astronomer-13375905/my-workspace/documentation/euv6rf8/new-collection
 
